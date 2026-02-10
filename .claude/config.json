@@ -1,0 +1,15 @@
+{
+  "description": "n8n workspace configuration",
+  "workspaceType": "monorepo",
+  "projects": {
+    "n8n-mcp": {
+      "path": "./n8n-mcp",
+      "type": "typescript",
+      "hasAgents": true
+    },
+    "n8n-skills": {
+      "path": "./n8n-skills",
+      "type": "documentation"
+    }
+  }
+}

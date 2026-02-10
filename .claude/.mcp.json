@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "npx",
+      "args": ["n8n-mcp"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true",
+        "N8N_API_URL": "http://localhost:5678",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhNzk0NDY2Ni04ZTU2LTRjY2UtOTE0Ni1hODlhOTQ5MmY2MzAiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwianRpIjoiZDUwMjg5NTktNzUzOC00OWZiLTkzMDYtZGFhMTRlOTQ0YmVlIiwiaWF0IjoxNzcwNzAwMTAxLCJleHAiOjE3NzEyNTQwMDB9.fqB-v2WKYs5k7r-XL5zcXe4ZfvaFJIHv98ZHklEKcoo"
+      }
+    }
+  }
+}
