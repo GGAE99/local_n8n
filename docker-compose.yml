@@ -11,6 +11,14 @@ services:
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
       - N8N_RUNNERS_ENABLED=true
       - NODES_EXCLUDE=[]
+      # SNS 브레인스토밍 워크플로우 API 키
+      - NAVER_CLIENT_ID=여기에_네이버_Client_ID_입력
+      - NAVER_CLIENT_SECRET=여기에_네이버_Client_Secret_입력
+      - ANTHROPIC_API_KEY=여기에_Claude_API_키_입력
+      - GOOGLE_AI_API_KEY=여기에_Gemini_API_키_입력
+      - OPENAI_API_KEY=여기에_OpenAI_API_키_입력
+      - NOTION_DATABASE_ID=여기에_Notion_데이터베이스_ID_입력
+      - NOTIFY_EMAIL=여기에_이메일_주소_입력
     volumes:
       - local_n8n_data:/home/node/.n8n
 
